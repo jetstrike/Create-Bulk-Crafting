@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "priority": 1000,
+  "package": "com.jokrisbest.bulk_crafting.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BasinBlockEntityMixin",
+    "BasinOperatingBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
